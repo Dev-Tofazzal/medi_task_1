@@ -53,11 +53,11 @@
         <!-- Budget button part start here -->
         <div class="my-4">
             <h3>Your Budget (Optional)</h3>
-            <div class="mt-3 ">
+            <div class="mt-3 max-md:grid max-md:grid-cols-2 max-md:gap-2">
                 <button class="btn border border-black hover:text-[#13AF88] hover:border-[#13AF88] hover:bg-[#b4e5d9]">Less than > $5,00</button>
                 <button class="btn border border-black hover:text-[#13AF88] hover:border-[#13AF88] hover:bg-[#b4e5d9] ">$5,00 - $1,000</button>
-                <button class="btn border border-black hover:text-[#13AF88] hover:border-[#13AF88] hover:bg-[#b4e5d9]">$1,001 - $1500</button>
-                <button class="btn border border-black hover:text-[#13AF88] hover:border-[#13AF88] hover:bg-[#b4e5d9]">$1500 - $2,000</button> 
+                <button class="btn border border-black hover:text-[#13AF88] hover:border-[#13AF88] hover:bg-[#b4e5d9] ">$1,001 - $1500</button>
+                <button class="btn border border-black hover:text-[#13AF88] hover:border-[#13AF88] hover:bg-[#b4e5d9] ">$1500 - $2,000</button> 
             </div>
         </div>
 
@@ -73,7 +73,7 @@
          <div>
             <h3>Add Attachments (Optional)</h3>
             <div class="mt-3">
-                <div class="lg:flex justify-between items-center px-2 border border-gray-400 w-full lg:h-14 rounded-lg">
+                <div class="flex justify-between items-center px-2 border border-gray-400 w-full lg:h-14  rounded-lg">
                   <div>
                     <p>(a brief, idea, branding guideline, old design,...)</p>
                   </div>
@@ -82,9 +82,10 @@
                         
                     </button> -->
                     <input type="file" id="upload" class="hidden">
-                    <label for="upload" class="border  p-2 text-[#ffff] bg-[#13AF88] rounded-xl ">
+                    <label for="upload" class="border gap-2  lg:p-2 text-[#ffff] bg-[#13AF88] lg:rounded-xl flex items-center max-md:text-xs max-md:rounded-lg">
                         <i class="fa-solid fa-paperclip"></i>
-                        Add File (5Mb)
+                        <span>Add File (5Mb)</span>
+                        
                     </label>
 
                   </div>
